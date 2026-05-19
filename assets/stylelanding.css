@@ -1,0 +1,159 @@
+:root {
+    --landing-color: rgb(1, 126, 1);
+}
+
+.headerBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+    position: static;
+    background-color: var(--landing-color);
+}
+
+.navbar {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    padding: 12px 16px;
+    border-radius: 8px;
+}
+
+.navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.logo {
+    display: block;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 3fr;
+    grid-template-areas: "header"
+        "menu" "content" "footer";
+    gap: 5px
+}
+
+.header {
+    grid-area: header;
+}
+
+.menu {
+    grid-area: menu;
+}
+
+.content {
+    grid-area: content;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.contentBars {
+    height: 8px;
+    position: static;
+    background-color: var(--landing-color);
+}
+
+.buttons,
+.cadbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.buttons>.button,
+.cadbutton>.button {
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color: rgb(85, 85, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.heroText {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    margin: 20px auto;
+}
+
+.imgGalery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 5px;
+}
+
+.images {
+    height: 300px;
+    border-radius: 20px;
+    border-style: groove;
+    border-color: var(--landing-color);
+    align-items: center;
+    justify-content: center;
+}
+
+.contentText {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    margin: 40px auto;
+}
+
+.card {
+    background: #ffffff;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-radius: 8px;
+    border-style: groove;
+    border-color: var(--landing-color);
+}
+
+.titles {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    margin: 20px auto;
+}
+
+.texts {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+.avtexts {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    margin: 20px auto;
+}
+
+.footerBar {
+    height: 250px;
+    position: static;
+    background-color: var(--landing-color);
+}
+
+.inRoxo {
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
