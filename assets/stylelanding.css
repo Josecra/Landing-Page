@@ -157,3 +157,27 @@
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
+.formGroup{
+    align-items: center;
+    margin: 20px 800px auto;
+}
+.formStyle{
+    border-color: var(--landing-color);
+    padding: 10px 50px 10px 10px;
+    border-radius: 4px;
+    border-style: groove;
+}
+.formButton{
+    padding: 10px 30px;
+    margin: 20px 870px auto;
+    border-radius: 4px;
+    border-style: groove;
+    background-color: rgb(85, 85, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+}
+.listText{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+}
